@@ -201,19 +201,13 @@
 
     <script>
 
+        $(".dropdown-item").click(function () {
 
-        $(function press () {
-
-            $(".dropdown-item").click(function () {
-
-                $(".btn:first-child").text($(this).text());
-                $(".btn:first-child").val($(this).text());
-
-            });
+            $(".btn").text($(this).text());
+            $(".btn").val($(this).text());
 
         });
 
-        press()
 
     </script>
 
