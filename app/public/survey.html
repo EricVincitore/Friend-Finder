@@ -255,6 +255,11 @@
             function closestValue() {
                 var scoreBank = []
                 for (let i = 0; i < friendsArray.length; i++) {
+
+                    for (let i = 0; i < score.length; i++) {
+                        var scoreNums = parseInt(score[i]);
+                    }
+                    
                     var arrSum = function (score) {
                         return friendsArray[i].score.reduce(function (a, b) {
                             return a + b;
