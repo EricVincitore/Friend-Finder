@@ -161,6 +161,12 @@
                 <span style="font-size: 1em; font-weight: bold;">Submit</span>
             </button>
         </div>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Some text in the Modal..</p>
+              </div>
+        </div>
         <div class="row">
             <div class="col-sm-12">
                 <a href="../data/friends.js">API Friends List </a> | <a
@@ -207,7 +213,9 @@
                     }
                 });
                 return isValid;
-            }
+                $(friendsArray).push(userData);
+                makeModal();
+            };
             // Checks if all required fields are filled
             if (validateForm()) {
                 // Creates an object to store the user's data
@@ -227,8 +235,24 @@
                         $("#question10").val()
                     ]
                 };
-                console.log(userData)
+                console.log(userData);
             };
+
+            function makeModal() {
+                var modalSpan = $(".close")[0];
+                $("#submit").click(function () {
+                    $("#myModal").css("display", "block")
+                }); 
+                $(modalSpan).click(function () {
+                    $("#myModal").css("display", "none")
+                });
+                $(document).click(function () {
+                    if (event.target == $("#myModal")) {
+                        $("#myModal").css("display", "none")
+                    }
+                });
+            }
+            
         });
 
     </script>
