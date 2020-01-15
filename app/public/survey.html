@@ -166,7 +166,7 @@
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                        <h5 class="modal-title" id="exampleModalLongTitle">Your Friend Match</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
@@ -228,7 +228,7 @@
                     }
                 });
                 return isValid;
-                //makeModal();
+
             };
             // Checks if all required fields are filled
             if (validateForm()) {
@@ -252,6 +252,18 @@
                 console.log(userData);
                 $(friendsArray).push(userData);
             };
+            function closestValue() {
+                var scoreBank = []
+                for (let i = 0; i < friendsArray.length; i++) {
+                    var arrSum = function (score) {
+                        return friendsArray[i].score.reduce(function (a, b) {
+                            return a + b;
+                        }, 0);
+                    }
+                    $(scoreBank).push(arrSum);
+
+                }
+            }
 
         });
 
