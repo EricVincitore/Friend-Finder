@@ -141,7 +141,7 @@
                 <br>
                 <hr><br>
                 <h3><strong>Question 10</strong></h3>
-                <span>You would rather have a relaxing night at home than going out somewhere..</span><br>
+                <span>You would rather have a relaxing night at home than going out somewhere.</span><br>
                 <select class="chosen-select" aria-labelledby="dropdownMenuButton" id="question10">
                     <option value="1">1 (Strongly Disagree)</option>
                     <option value="2">2</option>
@@ -170,7 +170,8 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        ...
+                        <div class= "NameTitle">Name: <div class="finalName"></div></div>
+                        <img class="finalPhoto" alt="Friend Photo">
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -249,6 +250,12 @@
 
                 $.post("/api/friends", userData, function (friends) {
                     console.log(friends)
+                    console.log(friends.name)
+                    console.log(friends.photo)
+                    imgSrc = friends.photo
+                    $(".finalName").html(friends.name);
+                    
+                    $(".finalPhoto").attr("src", imgSrc);
                 });
             };
             

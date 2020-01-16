@@ -17,9 +17,9 @@ module.exports = function (route) {
             var friendsScore = friendData[i].scores;
             sumTotal = 0;
             for (let j = 0; j < friendsScore.length; j++) {
-              
+
                 sumTotal += Math.abs(parseInt(userScore[j]) - parseInt(friendsScore[j]))
-                
+
             };
 
             newScoreArray.push({
@@ -29,14 +29,15 @@ module.exports = function (route) {
             });
 
         };
-        newScoreArray.sort(function (a,b) {
+        newScoreArray.sort(function (a, b) {
             return a.sumTotal - b.sumTotal
         });
-
+        
+        
         console.log(newScoreArray)
 
 
-      
+
         friendData.push(req.body);
         res.json(newScoreArray[0]);
     });
