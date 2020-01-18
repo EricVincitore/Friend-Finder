@@ -10,11 +10,17 @@ Welcome to the Friend-Finder app! This app will allow you to fill out a quick te
 ### Heroku Instructions
 
 1. Navigate to the heroku page for the app using the link at the bottom of this README.  
+![Starting Button](images/herokupage.png)
 
-2. Once you are at the page click the open app button in hte upper right corner of the page. YOu should be redirected to a new page with the starting green for the survey.  
+2. Once you are at the page click the open app button in the upper right corner of the page. YOu should be redirected to a new page with the starting green for the survey.  
+* Heroku Button  
+![Heroku Button](images/herokubutton.png)
 
-4. When you would like to start the survey click the button labeled "Go to Survey".  
-![Starting Button](images/startingbutton.png)
+* Starting Screen  
+![Starting Screen](images/startingscreen.png)
+
+4. When you would like to start the survey click the button labeled "Go to Survey".    
+![Starting Button](images/surveybutton.png)
 
 5. Fill in your name and add link to an image of yourself before you start answering questions.  
 ![Starting Info](images/startinginfo.png)
@@ -52,7 +58,7 @@ Welcome to the Friend-Finder app! This app will allow you to fill out a quick te
 ![Starting Screen](images/startingscreen.png)
 
 4. When you would like to start the survey click the button labeled "Go to Survey".  
-![Starting Button](images/startingbutton.png)
+![Starting Button](images/surveybutton.png)
 
 5. Fill in your name and add link to an image of yourself before you start answering questions.  
 ![Starting Info](images/startinginfo.png)
@@ -67,7 +73,7 @@ Welcome to the Friend-Finder app! This app will allow you to fill out a quick te
 
 ### Heroku Page
 
-
+https://dashboard.heroku.com/apps/friendfinderapp1001
 
 ### Git-Hub Page
 
