@@ -9,8 +9,8 @@ Welcome to the Friend-Finder app! This app will allow you to fill out a quick te
 
 ### Heroku Instructions
 
-1. Navigate to the heroku page for the app using the link at the bottom of this README.  
-
+1. Navigate to the heroku page for the app using the link at the bottom of this README.    
+![Heroku Page](images/herokupage.png)
 
 2. You should be redirected to a new page with the starting green for the survey.  
 ![Starting Screen](images/startingscreen.png)
