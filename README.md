@@ -10,22 +10,22 @@ Welcome to the Friend-Finder app! This app will allow you to fill out a quick te
 ### Heroku Instructions
 
 1. Navigate to the heroku page for the app using the link at the bottom of this README.    
-![Heroku Page](images/herokupage.png)
+![Heroku Page](https://raw.githubusercontent.com/EricVincitore/Friend-Finder/master/images/herokupage.PNG)
 
 2. You should be redirected to a new page with the starting green for the survey.  
-![Starting Screen](images/startingscreen.png)
+![Starting Screen](https://raw.githubusercontent.com/EricVincitore/Friend-Finder/master/images/startingscreen.PNG)
 
 4. When you would like to start the survey click the button labeled "Go to Survey".    
-![Starting Button](images/surveybutton.png)
+![Starting Button](https://raw.githubusercontent.com/EricVincitore/Friend-Finder/master/images/surveybutton.PNG)
 
 5. Fill in your name and add link to an image of yourself before you start answering questions.  
-![Starting Info](images/startinginfo.png)
+![Starting Info](https://raw.githubusercontent.com/EricVincitore/Friend-Finder/master/images/startinginfo.PNG)
 
 6. Fill out all ten questions with "1" if you strongly disagree to "5" if you strongly agree.  
-![Questions](images/question.png)
+![Questions](https://github.com/EricVincitore/Friend-Finder/blob/master/images/question.PNG)
 
 7. After you have answered all questions click the submit button to have a modal window appear with the name and photo of your closest match.  
-![Your Match](images/yourmatch.png)
+![Your Match](https://github.com/EricVincitore/Friend-Finder/blob/master/images/yourmatch.PNG)
 
 ### Git-Hub Instructions
 
@@ -45,25 +45,25 @@ Welcome to the Friend-Finder app! This app will allow you to fill out a quick te
 
 3. This should prompt you with a line that tells you the local host port it is running on. Copy the local host port you are using and paste it into your web browser to navigate to the starting page.
 * Terminal  
-![Terminal Command](images/localhost.png)
+![Terminal Command](https://raw.githubusercontent.com/EricVincitore/Friend-Finder/master/images/localhost.PNG)
 
 * Browser  
-![Browser Command](images/localhostBrowser.PNG)
+![Browser Command](https://raw.githubusercontent.com/EricVincitore/Friend-Finder/master/images/localhostbrowser.PNG)
 
 * Starting Screen  
-![Starting Screen](images/startingscreen.png)
+![Starting Screen](https://raw.githubusercontent.com/EricVincitore/Friend-Finder/master/images/startingscreen.PNG)
 
 4. When you would like to start the survey click the button labeled "Go to Survey".  
-![Starting Button](images/surveybutton.png)
+![Starting Button](https://raw.githubusercontent.com/EricVincitore/Friend-Finder/master/images/surveybutton.PNG)
 
 5. Fill in your name and add link to an image of yourself before you start answering questions.  
-![Starting Info](images/startinginfo.png)
+![Starting Info](https://raw.githubusercontent.com/EricVincitore/Friend-Finder/master/images/startinginfo.PNG)
 
 6. Fill out all ten questions with "1" if you strongly disagree to "5" if you strongly agree.  
-![Questions](images/question.png)
+![Questions](https://github.com/EricVincitore/Friend-Finder/blob/master/images/question.PNG)
 
 7. After you have answered all questions click the submit button to have a modal window appear with the name and photo of your closest match.  
-![Your Match](images/yourmatch.png)
+![Your Match](https://github.com/EricVincitore/Friend-Finder/blob/master/images/yourmatch.PNG)
 
 ## Links
 
